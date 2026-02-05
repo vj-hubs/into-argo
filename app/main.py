@@ -10,4 +10,4 @@ async def main():
 
 @app.get("/health")
 async def health():
-    return {"message": "I exists!"}
+    return {"message": "I exist!"}
